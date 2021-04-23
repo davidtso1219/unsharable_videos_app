@@ -21,12 +21,19 @@ unsharable_videos_app/
 source setup.sh
 ```
 
-2) Create a file called `.env` and set the environment by writing this line in `.env`.
+2) Create a file called `.env`.
+```
+touch .env
+```
+
+3) Open the file, and if you can find it, go to the direcotry and do command+shift+period to see the hidden files.
+
+3) Set the environment by writing this line in `.env`.
 ```
 FLASK_APP=app
 ```
 
-3) Finally, do the following command to run the app locally!
+5) Finally, do the following command to run the app locally!
 ```
 flask run
 ```
