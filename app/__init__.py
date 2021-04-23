@@ -5,3 +5,6 @@ app = Flask(__name__)
 app.config.from_object(Config)
 
 from app import routes
+
+def create_app():
+    return app

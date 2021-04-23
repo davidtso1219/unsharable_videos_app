@@ -1,4 +1,4 @@
 from app import app
 
-def create_app():
+if __name__ == '__main__':
     return app
