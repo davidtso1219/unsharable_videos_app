@@ -21,18 +21,12 @@ unsharable_videos_app/
 source setup.sh
 ```
 
-2) Create a file called `.env` to set the environment.
+2) Create a file called `.env` and set the environment by writing this line in `.env`.
 ```
 FLASK_APP=app
 ```
 
-3) Install the python-dotenv package to register environment
-variables to be automatically imported when running the `flask` command.
-```
-(venv) $ pip install python-dotenv
-```   
-
-4) Finally, do the following command to run the app locally!
+3) Finally, do the following command to run the app locally!
 ```
 flask run
 ```
